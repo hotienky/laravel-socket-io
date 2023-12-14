@@ -84,4 +84,19 @@ class ChatsController extends Controller
         ])));
         return Response::json(['ok' => true]);
     }
+
+     /**
+     * Render chat page with Inertia.
+     *
+     * @return \Inertia\Response
+     */
+    public function renderGames(Request $request, $room = null)
+    {
+        return Inertia::render('Game', [
+            'gameData' => [
+                'gift' => "ABV",
+                'status' => true
+            ]
+        ]);
+    }
 }

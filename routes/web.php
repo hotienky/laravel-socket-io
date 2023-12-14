@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Games\FishingGameController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -35,8 +36,11 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::post('/message', [ChatsController::class, 'sendMessage'])->name('message');
     Route::get('/lottery', [ChatsController::class, 'renderLottery'])->name('lottery');
     Route::post('/spin', [ChatsController::class, 'lottery'])->name('spin');
+    Route::get('/games', [ChatsController::class, 'renderGames'])->name('games');
 
 });
+
+Route::get('/fishing',  [FishingGameController::class, 'index'])->name('fishing');
 
 
 require __DIR__ . '/auth.php';

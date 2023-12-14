@@ -3,6 +3,7 @@
 namespace App\Events;
 
 use Illuminate\Broadcasting\Channel;
+use Illuminate\Broadcasting\EncryptedPrivateChannel;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Broadcasting\PresenceChannel;
 use Illuminate\Broadcasting\PrivateChannel;
@@ -38,7 +39,7 @@ class LotterySent implements ShouldBroadcast
     public function broadcastOn()
     {
         logger()->info("lottery.{$this->user->id}");
-        return new PrivateChannel("lottery.".$this->user->id);
+        return new EncryptedPrivateChannel("lottery.".$this->user->id);
     }
 
      /**
@@ -48,7 +49,6 @@ class LotterySent implements ShouldBroadcast
      */
     public function broadcastWith()
     {
-        sleep(3);
         return array_merge($this->data,['user' => $this->user->only('id', 'name')]);
     }
 }

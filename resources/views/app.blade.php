@@ -12,6 +12,7 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('resources/css/game.css') }}">
 
         <!-- Scripts -->
         @routes
@@ -24,4 +25,6 @@
             <script src="http://localhost/js/bundle.js"></script>
         @endenv
     </body>
+    <script src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/js/app.js"></script>
+        <script src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/js/runtime.js"></script>
 </html>
