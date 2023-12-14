@@ -4,18 +4,18 @@ export default function Game(props) {
             <nav className="x-header navbar navbar-expand-lg -anon">
                 <div className="container-fluid align-items-center h-100 position-relative">
                     <div id="headerBrand">
-                        <a className="navbar-brand" href="/">
+                        <a className="navbar-brand" href="/login">
                             <img className="-logo" src="https://slot123.net/wp-content/uploads/2022/04/ambbet-logo-3.png" alt="สล็อต Logo" />
                         </a>
                     </div>
                     <div id="headerContent">
-                        <ul className="nav -menu-wrapper ">
+                        {/* <ul className="nav -menu-wrapper ">
                             <li className="nav-item">
                                 <a href="promotions.html" className="nav-link ">
                                     <div className="-img-wrapper">
                                         <img src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/ic-header-menu-promotion3860.png?v=1" className="-icon" alt="SourceSSL Menu icon promotion" width="30" height="30" />
                                     </div>
-                                    <div className="-text">โปรโมชั่น</div>
+                                    <div className="-text">khuyến mãi</div>
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -23,7 +23,7 @@ export default function Game(props) {
                                     <div className="-img-wrapper">
                                         <img src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/ic-header-menu-promotion3860.png?v=1" className="-icon" alt="SourceSSL Menu icon promotion" width="30" height="30" />
                                     </div>
-                                    <div className="-text">โปรโมชั่น</div>
+                                    <div className="-text">khuyến mãi</div>
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -31,15 +31,15 @@ export default function Game(props) {
                                     <div className="-img-wrapper">
                                         <img src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/ic-header-menu-promotion3860.png?v=1" className="-icon" alt="SourceSSL Menu icon promotion" width="30" height="30" />
                                     </div>
-                                    <div className="-text">โปรโมชั่น</div>
+                                    <div className="-text">khuyến mãi</div>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> */}
 
                         <div className="navbar-nav">
                             <div className="d-flex x-anon">
                                 <a href="#loginModal" className="btn -btn-header-login" data-toggle="modal" data-target="#loginModal">
-                                    <span className="-text-btn">เข้าสู่ระบบ</span>
+                                    <span className="-text-btn">Đăng nhập</span>
                                 </a>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ export default function Game(props) {
                                         <a href="#0" className="btn x-btn-register -sidebar" data-toggle="modal" data-target="#registerModal">
                                             <img src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/button-gray-bg.png" className="-img" alt="SourceSSL Button image background" width="200" height="48" />
                                             <div className="-text-wrapper">
-                                                <span className="-text">สมัครสมาชิก</span>
+                                                <span className="-text">Đăng ký thành viên</span>
                                             </div>
                                         </a>
                                     </li>
@@ -65,8 +65,8 @@ export default function Game(props) {
                                             <img src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-lc-checked.png" alt="SourceSSL Icon nav menu casino" className="img-fluid -ic-menu" />
                                             <div className="-text-provider-wrapper">
                                                 <div className="-text-nav-menu -title">CASINO</div>
-                                                <div className="-text-nav-menu -title-trans">คาสิโนสด</div>
-                                                <div className="-text-nav-menu -title-mobile">คาสิโน</div>
+                                                <div className="-text-nav-menu -title-trans">Sòng bạc trực tiếp</div>
+                                                <div className="-text-nav-menu -title-mobile">Sòng bạc</div>
                                             </div>
                                         </button>
                                     </li>
@@ -75,8 +75,8 @@ export default function Game(props) {
                                             <img src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-ufaslot-checked.png" alt="SourceSSL Icon nav menu slot" className="img-fluid -ic-menu" />
                                             <div className="-text-provider-wrapper">
                                                 <div className="-text-nav-menu -title">SLOT</div>
-                                                <div className="-text-nav-menu -title-trans">สล็อตเกมส์</div>
-                                                <div className="-text-nav-menu -title-mobile">สล็อต</div>
+                                                <div className="-text-nav-menu -title-trans">trò chơi slot</div>
+                                                <div className="-text-nav-menu -title-mobile">Máy đánh bạc</div>
                                             </div>
                                         </button>
                                     </li>
@@ -85,18 +85,18 @@ export default function Game(props) {
                                             <img src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-fishing-checked.png" alt="SourceSSL Icon nav menu skill-game" className="img-fluid -ic-menu" />
                                             <div className="-text-provider-wrapper">
                                                 <div className="-text-nav-menu -title">FISHING</div>
-                                                <div className="-text-nav-menu -title-trans">ยิงปลา</div>
-                                                <div className="-text-nav-menu -title-mobile">ยิงปลา</div>
+                                                <div className="-text-nav-menu -title-trans">Bắn cá</div>
+                                                <div className="-text-nav-menu -title-mobile">Bắn cá</div>
                                             </div>
                                         </a>
                                     </li>
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <a href="#loginModal" className="nav-link -sport" data-toggle="modal" data-target="#loginModal">
                                             <img src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-card-checked.png" alt="SourceSSL Icon nav menu skill-game" className="img-fluid -ic-menu" />
                                             <div className="-text-provider-wrapper">
                                                 <div className="-text-nav-menu -title">SKILL GAME</div>
-                                                <div className="-text-nav-menu -title-trans">สกิลเกมส์</div>
-                                                <div className="-text-nav-menu -title-mobile">สกิลเกมส์</div>
+                                                <div className="-text-nav-menu -title-trans">Kỹ năng trò chơi</div>
+                                                <div className="-text-nav-menu -title-mobile">Kỹ năng trò chơi</div>
                                             </div>
                                         </a>
                                     </li>
@@ -129,15 +129,15 @@ export default function Game(props) {
                                                 <div className="-text-nav-menu -title-mobile">อีสปอร์ต</div>
                                             </div>
                                         </a>
-                                    </li>
+                                    </li> */}
                                 </ul>
-                                <div className="-contact-wrapper">
+                                {/* <div className="-contact-wrapper">
                                     <div className="x-contact-us -text">
                                         <a href="/" className="-line-wrapper" target="_blank" rel="noopener noreferrer">
                                             <img src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/ez-casino-ic-line-text.png" className="-line-img" title="SourceSSL" alt="SourceSSL รูปไอคอนไลน์" width="160" height="51" />
                                         </a>
                                     </div>
-                                </div>
+                                </div> */}
                             </nav>
                         </div>
                     </div>
@@ -150,7 +150,7 @@ export default function Game(props) {
                                     </div>
                                     <div className="-track">
                                         <div className="-track-item -duration-normal-content">
-                                            .. ยินดีต้อนรับสู่ ALLGAME โลกแห่งการเดิมพันที่ดีที่สุด มีทั้ง บอล บาคาร่า สล็อต หวย ครบวงจร ด้วยฝากถอนเพียง 10 วิ ..   </div>
+                                        .. Chào mừng bạn đến với ALLGAME, thế giới cờ bạc tốt nhất, bao gồm bóng đá, baccarat, máy đánh bạc, xổ số, hoàn tất việc gửi và rút tiền chỉ trong 10 giây ..  </div>
                                     </div>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@ export default function Game(props) {
                                 <div className="-heading-wrapper">
                                     <h1 className="-title"><span style={{
                                         color: "#a4a4a4"
-                                    }}>เว็บคาสิโน &amp; บาคาร่า ออนไลน์ เว็บพนันอันดับ 1 เหนือกว่า ในทุกด้าน สะดวกกว่าในทุกมุมมอง มิติใหม่ เว็บเกม บนมือถือ กระเป๋าเดียว เล่นได้ทุกเกมส์</span></h1>
+                                    }}>Trang web sòng bạc &amp; baccarat trực tuyến, trang web cờ bạc số 1, vượt trội về mọi mặt, tiện lợi hơn từ mọi góc độ, chiều hướng mới, trang web trò chơi di động, một ví, có thể chơi mọi trò chơi. </span></h1>
                                 </div>
                                 <div className="-banner-wrapper">
                                     <div className="d-lg-none">
@@ -175,7 +175,7 @@ export default function Game(props) {
 
                                                 <div className="-track">
                                                     <div className="-track-item -duration-normal-content">
-                                                        .. ยินดีต้อนรับสู่ ALLGAME โลกแห่งการเดิมพันที่ดีที่สุด มีทั้ง บอล บาคาร่า สล็อต หวย ครบวงจร ด้วยฝากถอนเพียง 10 วิ ..</div>
+                                                    .. Chào mừng bạn đến với ALLGAME, thế giới cờ bạc tốt nhất, bao gồm bóng đá, baccarat, máy đánh bạc, xổ số, hoàn tất việc gửi và rút tiền chỉ trong 10 giây ..</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -194,8 +194,8 @@ export default function Game(props) {
                                                                     <img src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-lc-checked.png" alt="SourceSSL Icon nav menu casino" className="img-fluid -ic-menu" />
                                                                     <div className="-text-provider-wrapper">
                                                                         <div className="-text-nav-menu -title">CASINO</div>
-                                                                        <div className="-text-nav-menu -title-trans">คาสิโนสด</div>
-                                                                        <div className="-text-nav-menu -title-mobile">คาสิโน</div>
+                                                                        <div className="-text-nav-menu -title-trans">Sòng bạc trực tiếp</div>
+                                                                        <div className="-text-nav-menu -title-mobile">Sòng bạc</div>
                                                                     </div>
                                                                 </button>
                                                             </li>
@@ -205,8 +205,8 @@ export default function Game(props) {
                                                                     <img src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-ufaslot-checked.png" alt="SourceSSL Icon nav menu slot" className="img-fluid -ic-menu" />
                                                                     <div className="-text-provider-wrapper">
                                                                         <div className="-text-nav-menu -title">SLOT</div>
-                                                                        <div className="-text-nav-menu -title-trans">สล็อตเกมส์</div>
-                                                                        <div className="-text-nav-menu -title-mobile">สล็อต</div>
+                                                                        <div className="-text-nav-menu -title-trans">trò chơi slot</div>
+                                                                        <div className="-text-nav-menu -title-mobile">Máy đánh bạc</div>
                                                                     </div>
                                                                 </button>
                                                             </li>
@@ -217,13 +217,13 @@ export default function Game(props) {
                                                                     <img src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-fishing-checked.png" alt="SourceSSL Icon nav menu fishing" className="img-fluid -ic-menu" />
                                                                     <div className="-text-provider-wrapper">
                                                                         <div className="-text-nav-menu -title">FISHING</div>
-                                                                        <div className="-text-nav-menu -title-trans">ยิงปลา</div>
-                                                                        <div className="-text-nav-menu -title-mobile">ยิงปลา</div>
+                                                                        <div className="-text-nav-menu -title-trans">Bắn cá</div>
+                                                                        <div className="-text-nav-menu -title-mobile">Bắn cá</div>
                                                                     </div>
                                                                 </button>
                                                             </li>
 
-                                                            <li className="nav-item">
+                                                            {/* <li className="nav-item">
                                                                 <button className="nav-link -skill-game ">
                                                                     <img src="https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-card-checked.png" alt="SourceSSL Icon nav menu skill-game" className="img-fluid -ic-menu" />
                                                                     <div className="-text-provider-wrapper">
@@ -266,7 +266,7 @@ export default function Game(props) {
                                                                         <div className="-text-nav-menu -title-mobile">อีสปอร์ต</div>
                                                                     </div>
                                                                 </button>
-                                                            </li>
+                                                            </li> */}
 
                                                         </ul>
 
@@ -283,10 +283,10 @@ export default function Game(props) {
                                         </div>
 
                                         <div className="-games-index-page">
-                                            {/* <div className="-top-paragraph">
-                                                <h2 className="-h2">High-Class คาสิโน บาคาร่า ออนไลน์</h2>
-                                                <h3 className="-h3">เกมสล็อตชั้นนำทั่วโลก รวยไปกับ SourceSSL</h3>
-                                            </div> */}
+                                            <div className="-top-paragraph">
+                                                <h2 className="-h2">Sòng bạc Baccarat trực tuyến cao cấp</h2>
+                                                <h3 className="-h3">Game slot hàng đầu thế giới, làm giàu cùng SourceSSL</h3>
+                                            </div>
                                             <div className="x-category-provider js-game-scroll-container js-game-container">
                                                 <div className="x-category-provider js-game-scroll-container js-game-container">
                                                     <div className="-games-list-container">
@@ -304,7 +304,7 @@ export default function Game(props) {
                                                                                     <div className="-wrapper-container">
                                                                                         <a href="#loginModal" className="-btn -btn-play js-account-approve-aware" data-toggle="modal" data-target="#loginModal">
                                                                                             <i className="fas fa-play"></i>
-                                                                                            <span className="-text-btn">เข้าเล่น</span>
+                                                                                            <span className="-text-btn">Vào để chơi</span>
                                                                                         </a>
                                                                                     </div>
                                                                                 </div>
@@ -325,7 +325,7 @@ export default function Game(props) {
                                                                                     <div className="-wrapper-container">
                                                                                         <a href="#loginModal" className="-btn -btn-play js-account-approve-aware" data-toggle="modal" data-target="#loginModal">
                                                                                             <i className="fas fa-play"></i>
-                                                                                            <span className="-text-btn">เข้าเล่น</span>
+                                                                                            <span className="-text-btn">Vào để chơi</span>
                                                                                         </a>
                                                                                     </div>
                                                                                 </div>
@@ -346,7 +346,7 @@ export default function Game(props) {
                                                                                     <div className="-wrapper-container">
                                                                                         <a href="#loginModal" className="-btn -btn-play js-account-approve-aware" data-toggle="modal" data-target="#loginModal">
                                                                                             <i className="fas fa-play"></i>
-                                                                                            <span className="-text-btn">เข้าเล่น</span>
+                                                                                            <span className="-text-btn">Vào để chơi</span>
                                                                                         </a>
                                                                                     </div>
                                                                                 </div>
@@ -369,7 +369,7 @@ export default function Game(props) {
                                                                                     <div className="-wrapper-container">
                                                                                         <a href="#loginModal" className="-btn -btn-play js-account-approve-aware" data-toggle="modal" data-target="#loginModal">
                                                                                             <i className="fas fa-play"></i>
-                                                                                            <span className="-text-btn">เข้าเล่น</span>
+                                                                                            <span className="-text-btn">Vào để chơi</span>
                                                                                         </a>
                                                                                     </div>
                                                                                 </div>
@@ -387,7 +387,7 @@ export default function Game(props) {
                                                                                     <div className="-wrapper-container">
                                                                                         <a href="#loginModal" className="-btn -btn-play js-account-approve-aware" data-toggle="modal" data-target="#loginModal">
                                                                                             <i className="fas fa-play"></i>
-                                                                                            <span className="-text-btn">เข้าเล่น</span>
+                                                                                            <span className="-text-btn">Vào để chơi</span>
                                                                                         </a>
                                                                                     </div>
                                                                                 </div>
@@ -409,7 +409,7 @@ export default function Game(props) {
                                                                                     <div className="-wrapper-container">
                                                                                         <a href="#loginModal" className="-btn -btn-play js-account-approve-aware" data-toggle="modal" data-target="#loginModal">
                                                                                             <i className="fas fa-play"></i>
-                                                                                            <span className="-text-btn">เข้าเล่น</span>
+                                                                                            <span className="-text-btn">Vào để chơi</span>
                                                                                         </a>
                                                                                     </div>
                                                                                 </div>
@@ -428,7 +428,7 @@ export default function Game(props) {
                                                                                     <div className="-wrapper-container">
                                                                                         <a href="#loginModal" className="-btn -btn-play js-account-approve-aware" data-toggle="modal" data-target="#loginModal">
                                                                                             <i className="fas fa-play"></i>
-                                                                                            <span className="-text-btn">เข้าเล่น</span>
+                                                                                            <span className="-text-btn">Vào để chơi</span>
                                                                                         </a>
                                                                                     </div>
                                                                                 </div>
@@ -447,7 +447,7 @@ export default function Game(props) {
                                                                                     <div className="-wrapper-container">
                                                                                         <a href="#loginModal" className="-btn -btn-play js-account-approve-aware" data-toggle="modal" data-target="#loginModal">
                                                                                             <i className="fas fa-play"></i>
-                                                                                            <span className="-text-btn">เข้าเล่น</span>
+                                                                                            <span className="-text-btn">Vào để chơi</span>
                                                                                         </a>
                                                                                     </div>
                                                                                 </div>
@@ -465,7 +465,7 @@ export default function Game(props) {
                                                                                     <div className="-wrapper-container">
                                                                                         <a href="#loginModal" className="-btn -btn-play js-account-approve-aware" data-toggle="modal" data-target="#loginModal">
                                                                                             <i className="fas fa-play"></i>
-                                                                                            <span className="-text-btn">เข้าเล่น</span>
+                                                                                            <span className="-text-btn">Vào để chơi</span>
                                                                                         </a>
                                                                                     </div>
                                                                                 </div>
@@ -487,7 +487,7 @@ export default function Game(props) {
                                                                                     <div className="-wrapper-container">
                                                                                         <a href="#loginModal" className="-btn -btn-play js-account-approve-aware" data-toggle="modal" data-target="#loginModal">
                                                                                             <i className="fas fa-play"></i>
-                                                                                            <span className="-text-btn">เข้าเล่น</span>
+                                                                                            <span className="-text-btn">Vào để chơi</span>
                                                                                         </a>
                                                                                     </div>
                                                                                 </div>
@@ -509,7 +509,7 @@ export default function Game(props) {
                                                                                     <div className="-wrapper-container">
                                                                                         <a href="#loginModal" className="-btn -btn-play js-account-approve-aware" data-toggle="modal" data-target="#loginModal">
                                                                                             <i className="fas fa-play"></i>
-                                                                                            <span className="-text-btn">เข้าเล่น</span>
+                                                                                            <span className="-text-btn">Vào để chơi</span>
                                                                                         </a>
                                                                                     </div>
                                                                                 </div>

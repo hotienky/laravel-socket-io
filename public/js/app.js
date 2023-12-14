@@ -4814,6 +4814,57 @@ function Dashboard(props) {
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Fishing.js":
+/*!***************************************!*\
+  !*** ./resources/js/Pages/Fishing.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+var Fishing = function Fishing() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("head", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("meta", {
+        "http-equiv": "Content-Type",
+        content: "text/html; charset=utf-8"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("meta", {
+        name: "apple-mobile-web-app-capable",
+        content: "yes"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("meta", {
+        name: "apple-mobile-web-app-status-bar-style",
+        content: "black"
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("body", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        id: "outer",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+          id: "middle",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+            id: "container",
+            style: "position:relative;width:980px;height:545px;top:-50%;margin:0 auto;"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+            id: "msg"
+          })]
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        id: "fps",
+        style: "position:absolute;top:0;left:0;color:#fff;"
+      })]
+    })]
+  });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Fishing);
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Game.js":
 /*!************************************!*\
   !*** ./resources/js/Pages/Game.js ***!
@@ -4839,76 +4890,16 @@ function Game(props) {
           id: "headerBrand",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
             className: "navbar-brand",
-            href: "/",
+            href: "/login",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
               className: "-logo",
               src: "https://slot123.net/wp-content/uploads/2022/04/ambbet-logo-3.png",
               alt: "\u0E2A\u0E25\u0E47\u0E2D\u0E15 Logo"
             })
           })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
           id: "headerContent",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-            className: "nav -menu-wrapper ",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-              className: "nav-item",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                href: "promotions.html",
-                className: "nav-link ",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "-img-wrapper",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-                    src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/ic-header-menu-promotion3860.png?v=1",
-                    className: "-icon",
-                    alt: "SourceSSL Menu icon promotion",
-                    width: "30",
-                    height: "30"
-                  })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "-text",
-                  children: "\u0E42\u0E1B\u0E23\u0E42\u0E21\u0E0A\u0E31\u0E48\u0E19"
-                })]
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-              className: "nav-item",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                href: "promotions.html",
-                className: "nav-link ",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "-img-wrapper",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-                    src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/ic-header-menu-promotion3860.png?v=1",
-                    className: "-icon",
-                    alt: "SourceSSL Menu icon promotion",
-                    width: "30",
-                    height: "30"
-                  })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "-text",
-                  children: "\u0E42\u0E1B\u0E23\u0E42\u0E21\u0E0A\u0E31\u0E48\u0E19"
-                })]
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-              className: "nav-item",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                href: "promotions.html",
-                className: "nav-link ",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "-img-wrapper",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-                    src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/ic-header-menu-promotion3860.png?v=1",
-                    className: "-icon",
-                    alt: "SourceSSL Menu icon promotion",
-                    width: "30",
-                    height: "30"
-                  })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "-text",
-                  children: "\u0E42\u0E1B\u0E23\u0E42\u0E21\u0E0A\u0E31\u0E48\u0E19"
-                })]
-              })
-            })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
             className: "navbar-nav",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
               className: "d-flex x-anon",
@@ -4919,11 +4910,11 @@ function Game(props) {
                 "data-target": "#loginModal",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                   className: "-text-btn",
-                  children: "\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\u0E23\u0E30\u0E1A\u0E1A"
+                  children: "\u0110\u0103ng nh\u1EADp"
                 })
               })
             })
-          })]
+          })
         })]
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
@@ -4934,10 +4925,10 @@ function Game(props) {
           className: "x-main-side-bar",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
             className: "x-menu-provider js-tab-menu-provider -desktop-view",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("nav", {
               className: "nav-menu",
               id: "navbarCategory",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
                 className: "nav nav-pills js-menu-container -nav-menu-container",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
                   className: "nav-item -btn-register-container",
@@ -4956,7 +4947,7 @@ function Game(props) {
                       className: "-text-wrapper",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                         className: "-text",
-                        children: "\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01"
+                        children: "\u0110\u0103ng k\xFD th\xE0nh vi\xEAn"
                       })
                     })]
                   })
@@ -4975,10 +4966,10 @@ function Game(props) {
                         children: "CASINO"
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                         className: "-text-nav-menu -title-trans",
-                        children: "\u0E04\u0E32\u0E2A\u0E34\u0E42\u0E19\u0E2A\u0E14"
+                        children: "S\xF2ng b\u1EA1c tr\u1EF1c ti\u1EBFp"
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                         className: "-text-nav-menu -title-mobile",
-                        children: "\u0E04\u0E32\u0E2A\u0E34\u0E42\u0E19"
+                        children: "S\xF2ng b\u1EA1c"
                       })]
                     })]
                   })
@@ -4997,10 +4988,10 @@ function Game(props) {
                         children: "SLOT"
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                         className: "-text-nav-menu -title-trans",
-                        children: "\u0E2A\u0E25\u0E47\u0E2D\u0E15\u0E40\u0E01\u0E21\u0E2A\u0E4C"
+                        children: "tr\xF2 ch\u01A1i slot"
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                         className: "-text-nav-menu -title-mobile",
-                        children: "\u0E2A\u0E25\u0E47\u0E2D\u0E15"
+                        children: "M\xE1y \u0111\xE1nh b\u1EA1c"
                       })]
                     })]
                   })
@@ -5022,134 +5013,15 @@ function Game(props) {
                         children: "FISHING"
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                         className: "-text-nav-menu -title-trans",
-                        children: "\u0E22\u0E34\u0E07\u0E1B\u0E25\u0E32"
+                        children: "B\u1EAFn c\xE1"
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                         className: "-text-nav-menu -title-mobile",
-                        children: "\u0E22\u0E34\u0E07\u0E1B\u0E25\u0E32"
-                      })]
-                    })]
-                  })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  className: "nav-item",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                    href: "#loginModal",
-                    className: "nav-link -sport",
-                    "data-toggle": "modal",
-                    "data-target": "#loginModal",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-                      src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-card-checked.png",
-                      alt: "SourceSSL Icon nav menu skill-game",
-                      className: "img-fluid -ic-menu"
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      className: "-text-provider-wrapper",
-                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "-text-nav-menu -title",
-                        children: "SKILL GAME"
-                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "-text-nav-menu -title-trans",
-                        children: "\u0E2A\u0E01\u0E34\u0E25\u0E40\u0E01\u0E21\u0E2A\u0E4C"
-                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "-text-nav-menu -title-mobile",
-                        children: "\u0E2A\u0E01\u0E34\u0E25\u0E40\u0E01\u0E21\u0E2A\u0E4C"
-                      })]
-                    })]
-                  })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  className: "nav-item",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                    href: "#loginModal",
-                    className: "nav-link -sport",
-                    "data-toggle": "modal",
-                    "data-target": "#loginModal",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-                      src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-sportsbook-check.png",
-                      alt: "SourceSSL Icon nav menu sport",
-                      className: "img-fluid -ic-menu"
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      className: "-text-provider-wrapper",
-                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "-text-nav-menu -title",
-                        children: "SPORT"
-                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "-text-nav-menu -title-trans",
-                        children: "\u0E01\u0E35\u0E2C\u0E32"
-                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "-text-nav-menu -title-mobile",
-                        children: "\u0E01\u0E35\u0E2C\u0E32"
-                      })]
-                    })]
-                  })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  className: "nav-item",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                    href: "#loginModal",
-                    className: "nav-link -sport",
-                    "data-toggle": "modal",
-                    "data-target": "#loginModal",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-                      src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-graph-checked.png",
-                      alt: "SourceSSL Icon nav menu game graph",
-                      className: "img-fluid -ic-menu"
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      className: "-text-provider-wrapper",
-                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "-text-nav-menu -title",
-                        children: "HotGraph"
-                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "-text-nav-menu -title-trans",
-                        children: "\u0E40\u0E01\u0E21\u0E01\u0E23\u0E32\u0E1F"
-                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "-text-nav-menu -title-mobile",
-                        children: "\u0E40\u0E01\u0E21\u0E01\u0E23\u0E32\u0E1F"
-                      })]
-                    })]
-                  })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  className: "nav-item",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                    href: "#loginModal",
-                    className: "nav-link -sport",
-                    "data-toggle": "modal",
-                    "data-target": "#loginModal",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-                      src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-esports-checked.png",
-                      alt: "SourceSSL Icon nav menu esport",
-                      className: "img-fluid -ic-menu"
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      className: "-text-provider-wrapper",
-                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "-text-nav-menu -title",
-                        children: "E-SPORT"
-                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "-text-nav-menu -title-trans",
-                        children: "\u0E2D\u0E35\u0E2A\u0E1B\u0E2D\u0E23\u0E4C\u0E15"
-                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "-text-nav-menu -title-mobile",
-                        children: "\u0E2D\u0E35\u0E2A\u0E1B\u0E2D\u0E23\u0E4C\u0E15"
+                        children: "B\u1EAFn c\xE1"
                       })]
                     })]
                   })
                 })]
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "-contact-wrapper",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "x-contact-us -text",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                    href: "/",
-                    className: "-line-wrapper",
-                    target: "_blank",
-                    rel: "noopener noreferrer",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-                      src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/ez-casino-ic-line-text.png",
-                      className: "-line-img",
-                      title: "SourceSSL",
-                      alt: "SourceSSL \u0E23\u0E39\u0E1B\u0E44\u0E2D\u0E04\u0E2D\u0E19\u0E44\u0E25\u0E19\u0E4C",
-                      width: "160",
-                      height: "51"
-                    })
-                  })
-                })
-              })]
+              })
             })
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -5169,7 +5041,7 @@ function Game(props) {
                   className: "-track",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                     className: "-track-item -duration-normal-content",
-                    children: ".. \u0E22\u0E34\u0E19\u0E14\u0E35\u0E15\u0E49\u0E2D\u0E19\u0E23\u0E31\u0E1A\u0E2A\u0E39\u0E48 ALLGAME \u0E42\u0E25\u0E01\u0E41\u0E2B\u0E48\u0E07\u0E01\u0E32\u0E23\u0E40\u0E14\u0E34\u0E21\u0E1E\u0E31\u0E19\u0E17\u0E35\u0E48\u0E14\u0E35\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14 \u0E21\u0E35\u0E17\u0E31\u0E49\u0E07 \u0E1A\u0E2D\u0E25 \u0E1A\u0E32\u0E04\u0E32\u0E23\u0E48\u0E32 \u0E2A\u0E25\u0E47\u0E2D\u0E15 \u0E2B\u0E27\u0E22 \u0E04\u0E23\u0E1A\u0E27\u0E07\u0E08\u0E23 \u0E14\u0E49\u0E27\u0E22\u0E1D\u0E32\u0E01\u0E16\u0E2D\u0E19\u0E40\u0E1E\u0E35\u0E22\u0E07 10 \u0E27\u0E34 ..   "
+                    children: ".. Ch\xE0o m\u1EEBng b\u1EA1n \u0111\u1EBFn v\u1EDBi ALLGAME, th\u1EBF gi\u1EDBi c\u1EDD b\u1EA1c t\u1ED1t nh\u1EA5t, bao g\u1ED3m b\xF3ng \u0111\xE1, baccarat, m\xE1y \u0111\xE1nh b\u1EA1c, x\u1ED5 s\u1ED1, ho\xE0n t\u1EA5t vi\u1EC7c g\u1EEDi v\xE0 r\xFAt ti\u1EC1n ch\u1EC9 trong 10 gi\xE2y ..  "
                   })
                 })]
               })
@@ -5189,7 +5061,7 @@ function Game(props) {
                     style: {
                       color: "#a4a4a4"
                     },
-                    children: "\u0E40\u0E27\u0E47\u0E1A\u0E04\u0E32\u0E2A\u0E34\u0E42\u0E19 & \u0E1A\u0E32\u0E04\u0E32\u0E23\u0E48\u0E32 \u0E2D\u0E2D\u0E19\u0E44\u0E25\u0E19\u0E4C \u0E40\u0E27\u0E47\u0E1A\u0E1E\u0E19\u0E31\u0E19\u0E2D\u0E31\u0E19\u0E14\u0E31\u0E1A 1 \u0E40\u0E2B\u0E19\u0E37\u0E2D\u0E01\u0E27\u0E48\u0E32 \u0E43\u0E19\u0E17\u0E38\u0E01\u0E14\u0E49\u0E32\u0E19 \u0E2A\u0E30\u0E14\u0E27\u0E01\u0E01\u0E27\u0E48\u0E32\u0E43\u0E19\u0E17\u0E38\u0E01\u0E21\u0E38\u0E21\u0E21\u0E2D\u0E07 \u0E21\u0E34\u0E15\u0E34\u0E43\u0E2B\u0E21\u0E48 \u0E40\u0E27\u0E47\u0E1A\u0E40\u0E01\u0E21 \u0E1A\u0E19\u0E21\u0E37\u0E2D\u0E16\u0E37\u0E2D \u0E01\u0E23\u0E30\u0E40\u0E1B\u0E4B\u0E32\u0E40\u0E14\u0E35\u0E22\u0E27 \u0E40\u0E25\u0E48\u0E19\u0E44\u0E14\u0E49\u0E17\u0E38\u0E01\u0E40\u0E01\u0E21\u0E2A\u0E4C"
+                    children: "Trang web s\xF2ng b\u1EA1c & baccarat tr\u1EF1c tuy\u1EBFn, trang web c\u1EDD b\u1EA1c s\u1ED1 1, v\u01B0\u1EE3t tr\u1ED9i v\u1EC1 m\u1ECDi m\u1EB7t, ti\u1EC7n l\u1EE3i h\u01A1n t\u1EEB m\u1ECDi g\xF3c \u0111\u1ED9, chi\u1EC1u h\u01B0\u1EDBng m\u1EDBi, trang web tr\xF2 ch\u01A1i di \u0111\u1ED9ng, m\u1ED9t v\xED, c\xF3 th\u1EC3 ch\u01A1i m\u1ECDi tr\xF2 ch\u01A1i. "
                   })
                 })
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -5209,7 +5081,7 @@ function Game(props) {
                         className: "-track",
                         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                           className: "-track-item -duration-normal-content",
-                          children: ".. \u0E22\u0E34\u0E19\u0E14\u0E35\u0E15\u0E49\u0E2D\u0E19\u0E23\u0E31\u0E1A\u0E2A\u0E39\u0E48 ALLGAME \u0E42\u0E25\u0E01\u0E41\u0E2B\u0E48\u0E07\u0E01\u0E32\u0E23\u0E40\u0E14\u0E34\u0E21\u0E1E\u0E31\u0E19\u0E17\u0E35\u0E48\u0E14\u0E35\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14 \u0E21\u0E35\u0E17\u0E31\u0E49\u0E07 \u0E1A\u0E2D\u0E25 \u0E1A\u0E32\u0E04\u0E32\u0E23\u0E48\u0E32 \u0E2A\u0E25\u0E47\u0E2D\u0E15 \u0E2B\u0E27\u0E22 \u0E04\u0E23\u0E1A\u0E27\u0E07\u0E08\u0E23 \u0E14\u0E49\u0E27\u0E22\u0E1D\u0E32\u0E01\u0E16\u0E2D\u0E19\u0E40\u0E1E\u0E35\u0E22\u0E07 10 \u0E27\u0E34 .."
+                          children: ".. Ch\xE0o m\u1EEBng b\u1EA1n \u0111\u1EBFn v\u1EDBi ALLGAME, th\u1EBF gi\u1EDBi c\u1EDD b\u1EA1c t\u1ED1t nh\u1EA5t, bao g\u1ED3m b\xF3ng \u0111\xE1, baccarat, m\xE1y \u0111\xE1nh b\u1EA1c, x\u1ED5 s\u1ED1, ho\xE0n t\u1EA5t vi\u1EC7c g\u1EEDi v\xE0 r\xFAt ti\u1EC1n ch\u1EC9 trong 10 gi\xE2y .."
                         })
                       })]
                     })
@@ -5242,10 +5114,10 @@ function Game(props) {
                                     children: "CASINO"
                                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                                     className: "-text-nav-menu -title-trans",
-                                    children: "\u0E04\u0E32\u0E2A\u0E34\u0E42\u0E19\u0E2A\u0E14"
+                                    children: "S\xF2ng b\u1EA1c tr\u1EF1c ti\u1EBFp"
                                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                                     className: "-text-nav-menu -title-mobile",
-                                    children: "\u0E04\u0E32\u0E2A\u0E34\u0E42\u0E19"
+                                    children: "S\xF2ng b\u1EA1c"
                                   })]
                                 })]
                               })
@@ -5264,10 +5136,10 @@ function Game(props) {
                                     children: "SLOT"
                                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                                     className: "-text-nav-menu -title-trans",
-                                    children: "\u0E2A\u0E25\u0E47\u0E2D\u0E15\u0E40\u0E01\u0E21\u0E2A\u0E4C"
+                                    children: "tr\xF2 ch\u01A1i slot"
                                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                                     className: "-text-nav-menu -title-mobile",
-                                    children: "\u0E2A\u0E25\u0E47\u0E2D\u0E15"
+                                    children: "M\xE1y \u0111\xE1nh b\u1EA1c"
                                   })]
                                 })]
                               })
@@ -5286,101 +5158,10 @@ function Game(props) {
                                     children: "FISHING"
                                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                                     className: "-text-nav-menu -title-trans",
-                                    children: "\u0E22\u0E34\u0E07\u0E1B\u0E25\u0E32"
+                                    children: "B\u1EAFn c\xE1"
                                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                                     className: "-text-nav-menu -title-mobile",
-                                    children: "\u0E22\u0E34\u0E07\u0E1B\u0E25\u0E32"
-                                  })]
-                                })]
-                              })
-                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                              className: "nav-item",
-                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                                className: "nav-link -skill-game ",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-                                  src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-card-checked.png",
-                                  alt: "SourceSSL Icon nav menu skill-game",
-                                  className: "img-fluid -ic-menu"
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                  className: "-text-provider-wrapper",
-                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "-text-nav-menu -title",
-                                    children: "SKILL GAME"
-                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "-text-nav-menu -title-trans",
-                                    children: "\u0E2A\u0E01\u0E34\u0E25\u0E40\u0E01\u0E21\u0E2A\u0E4C"
-                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "-text-nav-menu -title-mobile",
-                                    children: "\u0E2A\u0E01\u0E34\u0E25\u0E40\u0E01\u0E21\u0E2A\u0E4C"
-                                  })]
-                                })]
-                              })
-                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                              className: "nav-item",
-                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                                href: "#loginModal",
-                                className: "nav-link -sport",
-                                "data-toggle": "modal",
-                                "data-target": "#loginModal",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-                                  src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-sportsbook-check.png",
-                                  alt: "SourceSSL Icon nav menu sport",
-                                  className: "img-fluid -ic-menu"
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                  className: "-text-provider-wrapper",
-                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "-text-nav-menu -title",
-                                    children: "SPORT"
-                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "-text-nav-menu -title-trans",
-                                    children: "\u0E01\u0E35\u0E2C\u0E32"
-                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "-text-nav-menu -title-mobile",
-                                    children: "\u0E01\u0E35\u0E2C\u0E32"
-                                  })]
-                                })]
-                              })
-                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                              className: "nav-item",
-                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                                className: "nav-link -skill-game ",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-                                  src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-graph-checked.png",
-                                  alt: "SourceSSL Icon nav menu game graph",
-                                  className: "img-fluid -ic-menu"
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                  className: "-text-provider-wrapper",
-                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "-text-nav-menu -title",
-                                    children: "HotGraph"
-                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "-text-nav-menu -title-trans",
-                                    children: "\u0E40\u0E01\u0E21\u0E01\u0E23\u0E32\u0E1F"
-                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "-text-nav-menu -title-mobile",
-                                    children: "\u0E40\u0E01\u0E21\u0E01\u0E23\u0E32\u0E1F"
-                                  })]
-                                })]
-                              })
-                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                              className: "nav-item",
-                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                                className: "nav-link -slot ",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-                                  src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-esports-checked.png",
-                                  alt: "SourceSSL Icon nav menu esport",
-                                  className: "img-fluid -ic-menu"
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                  className: "-text-provider-wrapper",
-                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "-text-nav-menu -title",
-                                    children: "E-SPORT"
-                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "-text-nav-menu -title-trans",
-                                    children: "\u0E2D\u0E35\u0E2A\u0E1B\u0E2D\u0E23\u0E4C\u0E15"
-                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "-text-nav-menu -title-mobile",
-                                    children: "\u0E2D\u0E35\u0E2A\u0E1B\u0E2D\u0E23\u0E4C\u0E15"
+                                    children: "B\u1EAFn c\xE1"
                                   })]
                                 })]
                               })
@@ -5407,9 +5188,18 @@ function Game(props) {
                         })
                       })
                     })
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                     className: "-games-index-page",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                      className: "-top-paragraph",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h2", {
+                        className: "-h2",
+                        children: "S\xF2ng b\u1EA1c Baccarat tr\u1EF1c tuy\u1EBFn cao c\u1EA5p"
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
+                        className: "-h3",
+                        children: "Game slot h\xE0ng \u0111\u1EA7u th\u1EBF gi\u1EDBi, l\xE0m gi\xE0u c\xF9ng SourceSSL"
+                      })]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                       className: "x-category-provider js-game-scroll-container js-game-container",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                         className: "x-category-provider js-game-scroll-container js-game-container",
@@ -5455,7 +5245,7 @@ function Game(props) {
                                               className: "fas fa-play"
                                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                                               className: "-text-btn",
-                                              children: "\u0E40\u0E02\u0E49\u0E32\u0E40\u0E25\u0E48\u0E19"
+                                              children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
                                             })]
                                           })
                                         })
@@ -5501,7 +5291,7 @@ function Game(props) {
                                               className: "fas fa-play"
                                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                                               className: "-text-btn",
-                                              children: "\u0E40\u0E02\u0E49\u0E32\u0E40\u0E25\u0E48\u0E19"
+                                              children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
                                             })]
                                           })
                                         })
@@ -5547,7 +5337,7 @@ function Game(props) {
                                               className: "fas fa-play"
                                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                                               className: "-text-btn",
-                                              children: "\u0E40\u0E02\u0E49\u0E32\u0E40\u0E25\u0E48\u0E19"
+                                              children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
                                             })]
                                           })
                                         })
@@ -5596,7 +5386,7 @@ function Game(props) {
                                               className: "fas fa-play"
                                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                                               className: "-text-btn",
-                                              children: "\u0E40\u0E02\u0E49\u0E32\u0E40\u0E25\u0E48\u0E19"
+                                              children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
                                             })]
                                           })
                                         })
@@ -5635,7 +5425,7 @@ function Game(props) {
                                               className: "fas fa-play"
                                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                                               className: "-text-btn",
-                                              children: "\u0E40\u0E02\u0E49\u0E32\u0E40\u0E25\u0E48\u0E19"
+                                              children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
                                             })]
                                           })
                                         })
@@ -5674,7 +5464,7 @@ function Game(props) {
                                               className: "fas fa-play"
                                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                                               className: "-text-btn",
-                                              children: "\u0E40\u0E02\u0E49\u0E32\u0E40\u0E25\u0E48\u0E19"
+                                              children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
                                             })]
                                           })
                                         })
@@ -5713,7 +5503,7 @@ function Game(props) {
                                               className: "fas fa-play"
                                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                                               className: "-text-btn",
-                                              children: "\u0E40\u0E02\u0E49\u0E32\u0E40\u0E25\u0E48\u0E19"
+                                              children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
                                             })]
                                           })
                                         })
@@ -5752,7 +5542,7 @@ function Game(props) {
                                               className: "fas fa-play"
                                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                                               className: "-text-btn",
-                                              children: "\u0E40\u0E02\u0E49\u0E32\u0E40\u0E25\u0E48\u0E19"
+                                              children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
                                             })]
                                           })
                                         })
@@ -5791,7 +5581,7 @@ function Game(props) {
                                               className: "fas fa-play"
                                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                                               className: "-text-btn",
-                                              children: "\u0E40\u0E02\u0E49\u0E32\u0E40\u0E25\u0E48\u0E19"
+                                              children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
                                             })]
                                           })
                                         })
@@ -5835,7 +5625,7 @@ function Game(props) {
                                               className: "fas fa-play"
                                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                                               className: "-text-btn",
-                                              children: "\u0E40\u0E02\u0E49\u0E32\u0E40\u0E25\u0E48\u0E19"
+                                              children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
                                             })]
                                           })
                                         })
@@ -5879,7 +5669,7 @@ function Game(props) {
                                               className: "fas fa-play"
                                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
                                               className: "-text-btn",
-                                              children: "\u0E40\u0E02\u0E49\u0E32\u0E40\u0E25\u0E48\u0E19"
+                                              children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
                                             })]
                                           })
                                         })
@@ -5895,7 +5685,7 @@ function Game(props) {
                           })
                         })
                       })
-                    })
+                    })]
                   })]
                 })]
               })]
@@ -5976,40 +5766,866 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Welcome(props) {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.Fragment, {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Head, {
-      title: "Welcome"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-      className: "relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-        className: "fixed top-0 right-0 px-6 py-4 sm:block",
-        children: props.auth.user ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.Fragment, {
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
-            href: route('dashboard'),
-            className: "text-sm text-gray-700 underline",
-            children: "Dashboard"
+  return (
+    /*#__PURE__*/
+    // <>
+    //     <Head title="Welcome" />
+    //     <div className="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+    //         <div className="fixed top-0 right-0 px-6 py-4 sm:block">
+    //             {props.auth.user ? (
+    //                <>
+    //                 <Link href={route('dashboard')} className="text-sm text-gray-700 underline">
+    //                     Dashboard
+    //                 </Link>
+    //                 <div className='mr-{20px}'></div>
+    //                 <Link href={route('lottery')} className="text-sm text-gray-700 underline">
+    //                     Lottery
+    //                 </Link>
+    //                 </>
+    //             ) : (
+    //                 <>
+    //                     <Link href={route('login')} className="text-sm text-gray-700 underline">
+    //                         Log in
+    //                     </Link>
+    //                     <Link href={route('register')} className="ml-4 text-sm text-gray-700 underline">
+    //                         Register
+    //                     </Link>
+    //                 </>
+    //             )}
+    //         </div>
+    //     </div>
+    // </>
+    (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.Fragment, {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("nav", {
+        className: "x-header navbar navbar-expand-lg -anon",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "container-fluid align-items-center h-100 position-relative",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+            id: "headerBrand",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
+              href: '/',
+              className: "navbar-brand",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                className: "-logo",
+                src: "https://slot123.net/wp-content/uploads/2022/04/ambbet-logo-3.png",
+                alt: "\u0E2A\u0E25\u0E47\u0E2D\u0E15 Logo"
+              })
+            })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-            className: "mr-{20px}"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
-            href: route('lottery'),
-            className: "text-sm text-gray-700 underline",
-            children: "Lottery"
-          })]
-        }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.Fragment, {
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
-            href: route('login'),
-            className: "text-sm text-gray-700 underline",
-            children: "Log in"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
-            href: route('register'),
-            className: "ml-4 text-sm text-gray-700 underline",
-            children: "Register"
+            id: "headerContent",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "navbar-nav",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                className: "d-flex x-anon",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
+                  href: route('login'),
+                  className: "btn -btn-header-login",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                    className: "-text-btn",
+                    children: "\u0110\u0103ng nh\u1EADp"
+                  })
+                })
+              })
+            })
           })]
         })
-      })
-    })]
-  });
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        id: "main__content",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "x-main-container",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+            className: "x-main-side-bar",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "x-menu-provider js-tab-menu-provider -desktop-view",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("nav", {
+                className: "nav-menu",
+                id: "navbarCategory",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("ul", {
+                  className: "nav nav-pills js-menu-container -nav-menu-container",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                    className: "nav-item -btn-register-container",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
+                      href: route('register'),
+                      className: "btn x-btn-register -sidebar",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                        src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/button-gray-bg.png",
+                        className: "-img",
+                        alt: "SourceSSL Button image background",
+                        width: "200",
+                        height: "48"
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                        className: "-text-wrapper",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                          className: "-text",
+                          children: "\u0110\u0103ng k\xFD th\xE0nh vi\xEAn"
+                        })
+                      })]
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                    className: "nav-item",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("button", {
+                      className: "nav-link -casino active",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                        src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-lc-checked.png",
+                        alt: "SourceSSL Icon nav menu casino",
+                        className: "img-fluid -ic-menu"
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                        className: "-text-provider-wrapper",
+                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                          className: "-text-nav-menu -title",
+                          children: "CASINO"
+                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                          className: "-text-nav-menu -title-trans",
+                          children: "S\xF2ng online"
+                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                          className: "-text-nav-menu -title-mobile",
+                          children: "S\xF2ng b\u1EA1c"
+                        })]
+                      })]
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                    className: "nav-item",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("button", {
+                      className: "nav-link -slot",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                        src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-ufaslot-checked.png",
+                        alt: "SourceSSL Icon nav menu slot",
+                        className: "img-fluid -ic-menu"
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                        className: "-text-provider-wrapper",
+                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                          className: "-text-nav-menu -title",
+                          children: "SLOT"
+                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                          className: "-text-nav-menu -title-trans",
+                          children: "tr\xF2 ch\u01A1i slot"
+                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                          className: "-text-nav-menu -title-mobile",
+                          children: "M\xE1y \u0111\xE1nh b\u1EA1c"
+                        })]
+                      })]
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                    className: "nav-item",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+                      href: "#loginModal",
+                      className: "nav-link -sport",
+                      "data-toggle": "modal",
+                      "data-target": "#loginModal",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                        src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-fishing-checked.png",
+                        alt: "SourceSSL Icon nav menu skill-game",
+                        className: "img-fluid -ic-menu"
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                        className: "-text-provider-wrapper",
+                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                          className: "-text-nav-menu -title",
+                          children: "FISHING"
+                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                          className: "-text-nav-menu -title-trans",
+                          children: "B\u1EAFn c\xE1"
+                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                          className: "-text-nav-menu -title-mobile",
+                          children: "B\u1EAFn c\xE1"
+                        })]
+                      })]
+                    })
+                  })]
+                })
+              })
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "x-main-content",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "d-none d-lg-block",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                className: "x-feed-news-header",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                  className: "-feed-news-inner-wrapper",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                    className: "-icon-container",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+                      className: "fas fa-volume-up"
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                    className: "-track",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                      className: "-track-item -duration-normal-content",
+                      children: ".. Ch\xE0o m\u1EEBng b\u1EA1n \u0111\u1EBFn v\u1EDBi ALLGAME, th\u1EBF gi\u1EDBi c\u1EDD b\u1EA1c t\u1ED1t nh\u1EA5t, bao g\u1ED3m b\xF3ng \u0111\xE1, baccarat, m\xE1y \u0111\xE1nh b\u1EA1c, x\u1ED5 s\u1ED1, ho\xE0n t\u1EA5t vi\u1EC7c g\u1EEDi v\xE0 r\xFAt ti\u1EC1n ch\u1EC9 trong 10 gi\xE2y ..  "
+                    })
+                  })]
+                })
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("section", {
+              className: "x-index-top-container",
+              style: {
+                background: "url('')"
+              },
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                className: "-index-inner-wrapper",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                  className: "-heading-wrapper",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
+                    className: "-title",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                      style: {
+                        color: "#a4a4a4"
+                      },
+                      children: "Trang web s\xF2ng b\u1EA1c & baccarat tr\u1EF1c tuy\u1EBFn, trang web c\u1EDD b\u1EA1c s\u1ED1 1, v\u01B0\u1EE3t tr\u1ED9i v\u1EC1 m\u1ECDi m\u1EB7t, ti\u1EC7n l\u1EE3i h\u01A1n t\u1EEB m\u1ECDi g\xF3c \u0111\u1ED9, chi\u1EC1u h\u01B0\u1EDBng m\u1EDBi, trang web tr\xF2 ch\u01A1i di \u0111\u1ED9ng, m\u1ED9t v\xED, c\xF3 th\u1EC3 ch\u01A1i m\u1ECDi tr\xF2 ch\u01A1i. "
+                    })
+                  })
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                  className: "-banner-wrapper",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                    className: "d-lg-none",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                      className: "x-feed-news-header",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                        className: "-feed-news-inner-wrapper",
+                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                          className: "-icon-container",
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+                            className: "fas fa-volume-up"
+                          })
+                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                          className: "-track",
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                            className: "-track-item -duration-normal-content",
+                            children: ".. Ch\xE0o m\u1EEBng b\u1EA1n \u0111\u1EBFn v\u1EDBi ALLGAME, th\u1EBF gi\u1EDBi c\u1EDD b\u1EA1c t\u1ED1t nh\u1EA5t, bao g\u1ED3m b\xF3ng \u0111\xE1, baccarat, m\xE1y \u0111\xE1nh b\u1EA1c, x\u1ED5 s\u1ED1, ho\xE0n t\u1EA5t vi\u1EC7c g\u1EEDi v\xE0 r\xFAt ti\u1EC1n ch\u1EC9 trong 10 gi\xE2y .."
+                          })
+                        })]
+                      })
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                    className: "-games-provider-wrapper",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                      className: "-menu-index-page",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                        "data-menu-sticky": "js-sticky-widget",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                          className: "x-menu-provider js-tab-menu-provider",
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("nav", {
+                            className: "nav-menu",
+                            id: "navbarCategory",
+                            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("ul", {
+                              className: "nav nav-pills js-menu-container -nav-menu-container",
+                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                className: "nav-item",
+                                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("button", {
+                                  className: "nav-link -casino active",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                    src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-lc-checked.png",
+                                    alt: "SourceSSL Icon nav menu casino",
+                                    className: "img-fluid -ic-menu"
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "-text-provider-wrapper",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-text-nav-menu -title",
+                                      children: "CASINO"
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-text-nav-menu -title-trans",
+                                      children: "S\xF2ng b\u1EA1c tr\u1EF1c ti\u1EBFp"
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-text-nav-menu -title-mobile",
+                                      children: "S\xF2ng b\u1EA1c"
+                                    })]
+                                  })]
+                                })
+                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                className: "nav-item",
+                                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("button", {
+                                  className: "nav-link -slot",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                    src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-ufaslot-checked.png",
+                                    alt: "SourceSSL Icon nav menu slot",
+                                    className: "img-fluid -ic-menu"
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "-text-provider-wrapper",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-text-nav-menu -title",
+                                      children: "SLOT"
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-text-nav-menu -title-trans",
+                                      children: "tr\xF2 ch\u01A1i slot"
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-text-nav-menu -title-mobile",
+                                      children: "M\xE1y \u0111\xE1nh b\u1EA1c"
+                                    })]
+                                  })]
+                                })
+                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                className: "nav-item",
+                                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("button", {
+                                  className: "nav-link -slot ",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                    src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/icn-fishing-checked.png",
+                                    alt: "SourceSSL Icon nav menu fishing",
+                                    className: "img-fluid -ic-menu"
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "-text-provider-wrapper",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-text-nav-menu -title",
+                                      children: "FISHING"
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-text-nav-menu -title-trans",
+                                      children: "B\u1EAFn c\xE1"
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-text-nav-menu -title-mobile",
+                                      children: "B\u1EAFn c\xE1"
+                                    })]
+                                  })]
+                                })
+                              })]
+                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                              className: "-contact-wrapper",
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                className: "x-contact-us -text",
+                                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+                                  href: "https://line.me/R/ti/p/@SourceSSL",
+                                  className: "-line-wrapper",
+                                  target: "_blank",
+                                  rel: "noopener noreferrer",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                    src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/build/ez-casino-ic-line-text.png",
+                                    className: "-line-img",
+                                    alt: "SourceSSL \u0E23\u0E39\u0E1B\u0E44\u0E2D\u0E04\u0E2D\u0E19\u0E44\u0E25\u0E19\u0E4C",
+                                    width: "160",
+                                    height: "51"
+                                  })
+                                })
+                              })
+                            })]
+                          })
+                        })
+                      })
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                      className: "-games-index-page",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                        className: "-top-paragraph",
+                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
+                          className: "-h2",
+                          children: "S\xF2ng b\u1EA1c Baccarat tr\u1EF1c tuy\u1EBFn cao c\u1EA5p"
+                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h3", {
+                          className: "-h3",
+                          children: "Game slot h\xE0ng \u0111\u1EA7u th\u1EBF gi\u1EDBi, l\xE0m gi\xE0u c\xF9ng SourceSSL"
+                        })]
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                        className: "x-category-provider js-game-scroll-container js-game-container",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                          className: "x-category-provider js-game-scroll-container js-game-container",
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                            className: "-games-list-container",
+                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("nav", {
+                              className: "nav-menu",
+                              id: "navbarProvider",
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("ul", {
+                                className: "nav nav-pills",
+                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                  className: "nav-item -game-casino-macro-container",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "x-game-list-item-macro js-game-list-toggle -big ",
+                                    "data-status": "",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                      className: "-inner-wrapper",
+                                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "x-game-badge-component -new -big",
+                                        "data-animatable": "fadeInUp",
+                                        "data-delay": "400",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                          children: "New"
+                                        })
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                        src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/game/asia-gaming-animation.png",
+                                        className: "-cover-img lazyload img-fluid",
+                                        alt: "ag",
+                                        width: "364",
+                                        height: "231"
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "-overlay",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                          className: "-overlay-inner",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                            className: "-wrapper-container",
+                                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+                                              href: "#loginModal",
+                                              className: "-btn -btn-play js-account-approve-aware",
+                                              "data-toggle": "modal",
+                                              "data-target": "#loginModal",
+                                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+                                                className: "fas fa-play"
+                                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                                className: "-text-btn",
+                                                children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
+                                              })]
+                                            })
+                                          })
+                                        })
+                                      })]
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-title",
+                                      children: "AG GAMING"
+                                    })]
+                                  })
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                  className: "nav-item -game-casino-macro-container",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "x-game-list-item-macro js-game-list-toggle -big ",
+                                    "data-status": "",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                      className: "-inner-wrapper",
+                                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "x-game-badge-component -popular -big",
+                                        "data-animatable": "fadeInUp",
+                                        "data-delay": "400",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                          children: "Popular"
+                                        })
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                        src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/game/banner-provider-sexy-bac-animation.webp",
+                                        className: "-cover-img lazyload img-fluid",
+                                        alt: "AE Sexy Casino",
+                                        width: "364",
+                                        height: "231"
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "-overlay",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                          className: "-overlay-inner",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                            className: "-wrapper-container",
+                                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+                                              href: "#loginModal",
+                                              className: "-btn -btn-play js-account-approve-aware",
+                                              "data-toggle": "modal",
+                                              "data-target": "#loginModal",
+                                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+                                                className: "fas fa-play"
+                                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                                className: "-text-btn",
+                                                children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
+                                              })]
+                                            })
+                                          })
+                                        })
+                                      })]
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-title",
+                                      children: "AE SEXY"
+                                    })]
+                                  })
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                  className: "nav-item -game-casino-macro-container",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "x-game-list-item-macro js-game-list-toggle -big ",
+                                    "data-status": "",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                      className: "-inner-wrapper",
+                                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "x-game-badge-component -popular -big",
+                                        "data-animatable": "fadeInUp",
+                                        "data-delay": "400",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                          children: "Popular"
+                                        })
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                        src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/game/banner-provider-sa-gaming-animation.webp",
+                                        className: "-cover-img lazyload img-fluid",
+                                        alt: "Sa-Gaming",
+                                        width: "364",
+                                        height: "231"
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "-overlay",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                          className: "-overlay-inner",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                            className: "-wrapper-container",
+                                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+                                              href: "#loginModal",
+                                              className: "-btn -btn-play js-account-approve-aware",
+                                              "data-toggle": "modal",
+                                              "data-target": "#loginModal",
+                                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+                                                className: "fas fa-play"
+                                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                                className: "-text-btn",
+                                                children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
+                                              })]
+                                            })
+                                          })
+                                        })
+                                      })]
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-title",
+                                      children: "SA GAMING"
+                                    })]
+                                  })
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                  className: "nav-item -game-casino-macro-container",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "x-game-list-item-macro js-game-list-toggle -big ",
+                                    "data-status": "",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                      className: "-inner-wrapper",
+                                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "x-game-badge-component -new -big",
+                                        "data-animatable": "fadeInUp",
+                                        "data-delay": "400",
+                                        style: {
+                                          background: "linear-gradient(180deg, #f28856, #f71c40)"
+                                        },
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                          children: "Hot"
+                                        })
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                        src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/game/banner-provider-dream-gaming-animation.webp",
+                                        className: "-cover-img lazyload img-fluid",
+                                        alt: "Dream-Gaming",
+                                        width: "364",
+                                        height: "231"
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "-overlay",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                          className: "-overlay-inner",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                            className: "-wrapper-container",
+                                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+                                              href: "#loginModal",
+                                              className: "-btn -btn-play js-account-approve-aware",
+                                              "data-toggle": "modal",
+                                              "data-target": "#loginModal",
+                                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+                                                className: "fas fa-play"
+                                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                                className: "-text-btn",
+                                                children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
+                                              })]
+                                            })
+                                          })
+                                        })
+                                      })]
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-title",
+                                      children: "DREAM GAMING"
+                                    })]
+                                  })
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                  className: "nav-item -game-casino-macro-container",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "x-game-list-item-macro js-game-list-toggle -big ",
+                                    "data-status": "",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                      className: "-inner-wrapper",
+                                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                        src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/game/banner-provider-pretty-gaming-animation.webp",
+                                        className: "-cover-img lazyload img-fluid",
+                                        alt: "Pretty-Gaming",
+                                        width: "364",
+                                        height: "231"
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "-overlay",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                          className: "-overlay-inner",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                            className: "-wrapper-container",
+                                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+                                              href: "#loginModal",
+                                              className: "-btn -btn-play js-account-approve-aware",
+                                              "data-toggle": "modal",
+                                              "data-target": "#loginModal",
+                                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+                                                className: "fas fa-play"
+                                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                                className: "-text-btn",
+                                                children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
+                                              })]
+                                            })
+                                          })
+                                        })
+                                      })]
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-title",
+                                      children: "PRETTY GAMING"
+                                    })]
+                                  })
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                  className: "nav-item -game-casino-macro-container",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "x-game-list-item-macro js-game-list-toggle -big ",
+                                    "data-status": "",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                      className: "-inner-wrapper",
+                                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                        src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/game/banner-provider-ebet.webp",
+                                        className: "-cover-img lazyload img-fluid",
+                                        alt: "Ebet-Full",
+                                        width: "364",
+                                        height: "231"
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "-overlay",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                          className: "-overlay-inner",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                            className: "-wrapper-container",
+                                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+                                              href: "#loginModal",
+                                              className: "-btn -btn-play js-account-approve-aware",
+                                              "data-toggle": "modal",
+                                              "data-target": "#loginModal",
+                                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+                                                className: "fas fa-play"
+                                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                                className: "-text-btn",
+                                                children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
+                                              })]
+                                            })
+                                          })
+                                        })
+                                      })]
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-title",
+                                      children: "EBET GAMING"
+                                    })]
+                                  })
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                  className: "nav-item -game-casino-macro-container",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "x-game-list-item-macro js-game-list-toggle -big ",
+                                    "data-status": "",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                      className: "-inner-wrapper",
+                                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                        src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/game/banner-provider-allbet-full.webp",
+                                        className: "-cover-img lazyload img-fluid",
+                                        alt: "Allbet-Full",
+                                        width: "364",
+                                        height: "231"
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "-overlay",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                          className: "-overlay-inner",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                            className: "-wrapper-container",
+                                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+                                              href: "#loginModal",
+                                              className: "-btn -btn-play js-account-approve-aware",
+                                              "data-toggle": "modal",
+                                              "data-target": "#loginModal",
+                                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+                                                className: "fas fa-play"
+                                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                                className: "-text-btn",
+                                                children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
+                                              })]
+                                            })
+                                          })
+                                        })
+                                      })]
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-title",
+                                      children: "ALLBET"
+                                    })]
+                                  })
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                  className: "nav-item -game-casino-macro-container",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "x-game-list-item-macro js-game-list-toggle -big ",
+                                    "data-status": "",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                      className: "-inner-wrapper",
+                                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                        src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/game/banner-provider-big-gaming.webp",
+                                        className: "-cover-img lazyload img-fluid",
+                                        alt: "Big-Gaming",
+                                        width: "364",
+                                        height: "231"
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "-overlay",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                          className: "-overlay-inner",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                            className: "-wrapper-container",
+                                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+                                              href: "#loginModal",
+                                              className: "-btn -btn-play js-account-approve-aware",
+                                              "data-toggle": "modal",
+                                              "data-target": "#loginModal",
+                                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+                                                className: "fas fa-play"
+                                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                                className: "-text-btn",
+                                                children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
+                                              })]
+                                            })
+                                          })
+                                        })
+                                      })]
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-title",
+                                      children: "BIG GAMING"
+                                    })]
+                                  })
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                  className: "nav-item -game-casino-macro-container",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "x-game-list-item-macro js-game-list-toggle -big ",
+                                    "data-status": "",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                      className: "-inner-wrapper",
+                                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                        src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/game/banner-provider-d88.webp",
+                                        className: "-cover-img lazyload img-fluid",
+                                        alt: "Green Dragon",
+                                        width: "364",
+                                        height: "231"
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "-overlay",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                          className: "-overlay-inner",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                            className: "-wrapper-container",
+                                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+                                              href: "#loginModal",
+                                              className: "-btn -btn-play js-account-approve-aware",
+                                              "data-toggle": "modal",
+                                              "data-target": "#loginModal",
+                                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+                                                className: "fas fa-play"
+                                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                                className: "-text-btn",
+                                                children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
+                                              })]
+                                            })
+                                          })
+                                        })
+                                      })]
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-title",
+                                      children: "Green Dragon"
+                                    })]
+                                  })
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                  className: "nav-item -game-casino-macro-container",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "x-game-list-item-macro js-game-list-toggle -big ",
+                                    "data-status": "",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                      className: "-inner-wrapper",
+                                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("picture", {
+                                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("source", {
+                                          type: "image/webp",
+                                          srcSet: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/game/banner-provider-pt.webp"
+                                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                          src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/game/banner-provider-pt.webp",
+                                          className: "-cover-img lazyload img-fluid",
+                                          alt: "Pragmatic Play",
+                                          width: "364",
+                                          height: "231"
+                                        })]
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "-overlay",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                          className: "-overlay-inner",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                            className: "-wrapper-container",
+                                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+                                              href: "#loginModal",
+                                              className: "-btn -btn-play js-account-approve-aware",
+                                              "data-toggle": "modal",
+                                              "data-target": "#loginModal",
+                                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+                                                className: "fas fa-play"
+                                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                                className: "-text-btn",
+                                                children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
+                                              })]
+                                            })
+                                          })
+                                        })
+                                      })]
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-title",
+                                      children: "Pragmatic Play"
+                                    })]
+                                  })
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+                                  className: "nav-item -game-casino-macro-container",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                    className: "x-game-list-item-macro js-game-list-toggle -big ",
+                                    "data-status": "",
+                                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                                      className: "-inner-wrapper",
+                                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("picture", {
+                                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("source", {
+                                          type: "image/webp",
+                                          srcSet: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/game/banner-provider-tv.webp"
+                                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                                          src: "https://slot123.net/wp-content/themes/PGSLOTTHEME2020-1/assets_user/EZ/images/game/banner-provider-tv.webp",
+                                          className: "-cover-img lazyload img-fluid",
+                                          alt: "betgame",
+                                          width: "364",
+                                          height: "231"
+                                        })]
+                                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                        className: "-overlay",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                          className: "-overlay-inner",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                            className: "-wrapper-container",
+                                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
+                                              href: "#loginModal",
+                                              className: "-btn -btn-play js-account-approve-aware",
+                                              "data-toggle": "modal",
+                                              "data-target": "#loginModal",
+                                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
+                                                className: "fas fa-play"
+                                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                                                className: "-text-btn",
+                                                children: "V\xE0o \u0111\u1EC3 ch\u01A1i"
+                                              })]
+                                            })
+                                          })
+                                        })
+                                      })]
+                                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                                      className: "-title",
+                                      children: "BetGame"
+                                    })]
+                                  })
+                                })]
+                              })
+                            })
+                          })
+                        })
+                      })]
+                    })]
+                  })]
+                })]
+              })
+            })]
+          })]
+        })
+      })]
+    })
+  );
 }
+
+/***/ }),
+
+/***/ "./resources/js/Pages/dist/Fishing.dev.js":
+/*!************************************************!*\
+  !*** ./resources/js/Pages/dist/Fishing.dev.js ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", ({
+  value: true
+}));
+exports["default"] = void 0;
+var Fishing = function Fishing() {};
+var _default = Fishing;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -69818,12 +70434,16 @@ var map = {
 	"./Chat.js": "./resources/js/Pages/Chat.js",
 	"./Dashboard": "./resources/js/Pages/Dashboard.js",
 	"./Dashboard.js": "./resources/js/Pages/Dashboard.js",
+	"./Fishing": "./resources/js/Pages/Fishing.js",
+	"./Fishing.js": "./resources/js/Pages/Fishing.js",
 	"./Game": "./resources/js/Pages/Game.js",
 	"./Game.js": "./resources/js/Pages/Game.js",
 	"./Lottery": "./resources/js/Pages/Lottery.js",
 	"./Lottery.js": "./resources/js/Pages/Lottery.js",
 	"./Welcome": "./resources/js/Pages/Welcome.js",
-	"./Welcome.js": "./resources/js/Pages/Welcome.js"
+	"./Welcome.js": "./resources/js/Pages/Welcome.js",
+	"./dist/Fishing.dev": "./resources/js/Pages/dist/Fishing.dev.js",
+	"./dist/Fishing.dev.js": "./resources/js/Pages/dist/Fishing.dev.js"
 };
 
 

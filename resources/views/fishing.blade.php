@@ -3,8 +3,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-<link rel="apple-touch-icon" href="{{ asset('games/fishing-shot/images/icon.png') }}"/>
-<link rel="apple-touch-startup-image" href="{{ asset('games/fishing-shot/images/icon.png') }}" />
+<link rel="apple-touch-icon" href="{{ asset('fishing-shot/images/icon.png') }}"/>
+<link rel="apple-touch-startup-image" href="{{ asset('fishing-shot/images/icon.png') }}" />
 
 <style type="text/css">
 body, div, canvas
@@ -21,20 +21,18 @@ body, html{height: 100%;}
 #middle[id]{display:table-cell; vertical-align:middle; position:static;}
 </style>
 
-<title>Fish Joy in HTML5</title>
-
-<script type="text/javascript"  src="{{ asset('games/fishing-shot/js/quark.base-1.0.0.alpha.min.js') }}" ></script>
-{{-- <script type="text/javascript"   src="{{ asset('games/fishing-shot/fishjoy.game.js') }}"></script> --}}
-<script type="text/javascript" src="{{ asset('games/fishing-shot/src/Utils.js') }}"></script>
-<script type="text/javascript" src="{{ asset('games/fishing-shot/src/Utils.js') }}" ></script>
-<script type="text/javascript" src="{{ asset('games/fishing-shot/src/fishjoy.js') }}" ></script>
-<script type="text/javascript" src="{{ asset('games/fishing-shot/src/FishManager.js') }}" ></script>
-<script type="text/javascript" src="{{ asset('games/fishing-shot/src/FishGroup.js') }}" ></script>
-<script type="text/javascript" src="{{ asset('games/fishing-shot/src/views/Fish.js') }}" ></script>
-<script type="text/javascript" src="{{ asset('games/fishing-shot/src/views/Cannon.js') }}" ></script>
-<script type="text/javascript" src="{{ asset('games/fishing-shot/src/views/Bullet.js') }}" ></script>
-<script type="text/javascript" src="{{ asset('games/fishing-shot/src/views/Num.js') }}" ></script>
-<script type="text/javascript" src="{{ asset('games/fishing-shot/src/views/Player.js') }}" ></script>
+<script type="text/javascript" src="fishing-shot/js/quark.base-1.0.0.alpha.min.js"></script>
+<script type="text/javascript" src="fishjoy.game.js"></script>
+<script type="text/javascript" src="fishing-shot/src/R.js"></script>
+<script type="text/javascript" src="fishing-shot/src/Utils.js"></script>
+<script type="text/javascript" src="fishing-shot/src/fishjoy.js"></script>
+<script type="text/javascript" src="fishing-shot/src/FishManager.js"></script>
+<script type="text/javascript" src="fishing-shot/src/FishGroup.js"></script>
+<script type="text/javascript" src="fishing-shot/src/views/Fish.js"></script>
+<script type="text/javascript" src="fishing-shot/src/views/Cannon.js"></script>
+<script type="text/javascript" src="fishing-shot/src/views/Bullet.js"></script>
+<script type="text/javascript" src="fishing-shot/src/views/Num.js"></script>
+<script type="text/javascript" src="fishing-shot/src/views/Player.js"></script>
 
 </head>
 
